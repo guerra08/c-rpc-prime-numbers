@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	int flag;
 
 	if (argc != 3) {
-		fprintf(stderr,"Uso:\n%s <nome_do_servidor> <nome>\n\n",argv[0]);
+		fprintf(stderr,"Uso:\n%s <nome_do_servidor> <numero>\n\n",argv[0]);
 		
 		return 1;
 	}
